@@ -42,7 +42,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full flex h-[100dvh] flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full flex h-[100dvh] flex-col relative`}
       >
         <Providers>
           <Header />
